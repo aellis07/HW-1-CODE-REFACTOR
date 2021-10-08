@@ -8,6 +8,8 @@ body {
     background-color: #d9dcd6;
 }
 
+/* Set class for header of the webpage
+padding, font and color rules */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -20,10 +22,12 @@ body {
     font-size: 48px;
 }
 
+/* special class for the color change in the  letters 'seo' in the company logo in the header */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Set class for the navagation tab of the header */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -50,6 +54,7 @@ p {
     font-size: 16px;
 }
 
+/* Set class for the main picture of the webpage */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +64,23 @@ p {
     background-position: center;
 }
 
+
 .float-left {
     float: left;
-    margin-right: 25px;
+    margin-right: 20px;
 }
 
 .float-right {
     float: right;
-    margin-left: 25px;
+    margin-left: 20px;
 }
-
+/* Class for the main section of the webpage, leaving enough margin space for the panel section */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/* Class for the right panel section, padding added to leave space between left text box and boundry of the webpage   */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -188,6 +194,8 @@ p {
     max-height: 200px;
 }
 
+
+/* Class for the the footer section centered in the middle of the page with padding  */
 .footer {
     padding: 30px;
     clear: both;
